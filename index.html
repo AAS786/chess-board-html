@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">Chess Master</div>
+    <div class="turn-indicator">
+        <span id="turn-display">White's turn</span>
+    </div>
+    <div class="board-wrapper">
+        <div class="board-container">
+            <div class="vertical-labels left">
+                <div>8</div>
+                <div>7</div>
+                <div>6</div>
+                <div>5</div>
+                <div>4</div>
+                <div>3</div>
+                <div>2</div>
+                <div>1</div>
+            </div>
+            
+        <div class="box">
+            <div class="white"><img src="images/black_rook.png" alt="Black Rook"></div>
+            <div class="black"><img src="images/black_knight.png" alt="Black Knight"></div>
+            <div class="white"><img src="images/black_bishop.png" alt="Black Bishop"></div>
+            <div class="black"><img src="images/black_queen.png" alt="Black Queen"></div>
+            <div class="white"><img src="images/black_king.png" alt="Black King"></div>
+            <div class="black"><img src="images/black_bishop.png" alt="Black Bishop"></div>
+            <div class="white"><img src="images/black_knight.png" alt="Black Knight"></div>
+            <div class="black"><img src="images/black_rook.png" alt="Black Rook"></div>
+
+            <!-- Second Row (Black Pawns) -->
+            <div class="black"><img src="images/black_pawn.png" alt="Black Pawn"></div>
+            <div class="white"><img src="images/black_pawn.png" alt="Black Pawn"></div>
+            <div class="black"><img src="images/black_pawn.png" alt="Black Pawn"></div>
+            <div class="white"><img src="images/black_pawn.png" alt="Black Pawn"></div>
+            <div class="black"><img src="images/black_pawn.png" alt="Black Pawn"></div>
+            <div class="white"><img src="images/black_pawn.png" alt="Black Pawn"></div>
+            <div class="black"><img src="images/black_pawn.png" alt="Black Pawn"></div>
+            <div class="white"><img src="images/black_pawn.png" alt="Black Pawn"></div>
+
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+
+           <div class="black"></div>
+           <div class="white"></div>
+           <div class="black"></div>
+           <div class="white"></div>
+           <div class="black"></div>
+           <div class="white"></div>
+           <div class="black"></div>
+           <div class="white"></div>
+
+           <div class="white"><img src="images/white_pawn.png" alt="White Pawn"></div>
+           <div class="black"><img src="images/white_pawn.png" alt="White Pawn"></div>
+           <div class="white"><img src="images/white_pawn.png" alt="White Pawn"></div>
+           <div class="black"><img src="images/white_pawn.png" alt="White Pawn"></div>
+           <div class="white"><img src="images/white_pawn.png" alt="White Pawn"></div>
+           <div class="black"><img src="images/white_pawn.png" alt="White Pawn"></div>
+           <div class="white"><img src="images/white_pawn.png" alt="White Pawn"></div>
+           <div class="black"><img src="images/white_pawn.png" alt="White Pawn"></div>
+
+           <!-- Eighth Row (White Pieces) -->
+           <div class="black"><img src="images/white_rook.png" alt="White Rook"></div>
+           <div class="white"><img src="images/white_knight.png" alt="White Knight"></div>
+           <div class="black"><img src="images/white_bishop.png" alt="White Bishop"></div>
+           <div class="white"><img src="images/white_queen.png" alt="White Queen"></div>
+           <div class="black"><img src="images/white_king.png" alt="White King"></div>
+           <div class="white"><img src="images/white_bishop.png" alt="White Bishop"></div>
+           <div class="black"><img src="images/white_knight.png" alt="White Knight"></div>
+           <div class="white"><img src="images/white_rook.png" alt="White Rook"></div>
+        </div>
+        
+        <!-- Right Vertical Labels -->
+        <div class="vertical-labels right">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+        </div>
+
+        <!-- Bottom Horizontal Labels -->
+        <div class="horizontal-labels">
+            <div>A</div>
+            <div>B</div>
+            <div>C</div>
+            <div>D</div>
+            <div>E</div>
+            <div>F</div>
+            <div>G</div>
+            <div>H</div>
+        </div>
+
+        <!-- Top Horizontal Labels (same as bottom) -->
+        <div class="horizontal-labels top">
+            <div>H</div>
+            <div>G</div>
+            <div>F</div>
+            <div>E</div>
+            <div>D</div>
+            <div>C</div>
+            <div>B</div>
+            <div>A</div>
+        </div>
+    
+        <div class="controls">
+            <button id="start-button">Start</button>
+            <button id="reset-button">Reset</button>
+        </div>
+        <script src="scripts.js"></script>  
+    </div>
+</body>
+</html>
